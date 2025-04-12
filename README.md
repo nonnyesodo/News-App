@@ -16,9 +16,12 @@ A native Flutter news aggregator app that fetches and displays categorized news 
 
 > Add actual screenshots here after building the app
 
-| Category List | Article Details | Empty State |
-|---------------|-----------------|-------------|
-| ![Category](screenshots/category.png) | ![Detail](screenshots/detail.png) | ![Empty](screenshots/empty.png) |
+| Category List
+[Simulator Screenshot - iPhone 16 Pro - 2025-04-12 at 22 43 42](https://github.com/user-attachments/assets/17aae814-825f-49c4-a463-e8f4af3cf697)
+Article Details
+![Simulator Screenshot - iPhone 16 Pro - 2025-04-12 at 17 57 22](https://github.com/user-attachments/assets/0a92f980-8da3-46d9-a0db-398cad8283e8)
+
+
 
 ## 🚀 Getting Started
 
