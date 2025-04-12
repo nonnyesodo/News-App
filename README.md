@@ -1,41 +1,72 @@
-# 📰 Flutter News  App
+# 📰 Kagi News Aggregator (Flutter)
 
-A simple Flutter screen that displays detailed news information including the title, description, perspectives, articles, and domains. Shows an empty state when no news data is available.
+A native Flutter news aggregator app that fetches and displays categorized news using [Kagi's Kite](https://kite.kagi.com/kite.json) API. Inspired by Apple News and 1440 Quill, the app focuses on delivering a fast, intuitive, and joyful native experience beyond traditional PWAs or web views.
 
-## 📱 Features
+## ✨ Features
 
-- Displays news detail in a clean and scrollable layout
-- Shows additional info like:
-  - Perspectives
-  - Related Articles
-  - Associated Domains
-- Handles empty data with a user-friendly empty state
+- 📂 Category-based news feed (e.g. World, Tech, Business)
+- 📰 Beautiful list of articles with source, date, and title
+- 📱 Smooth native interactions and transitions
+- 📄 Detailed article view with summary
+- 🧭 Responsive UI for both iOS and Android
+- 😌 Empty state screens when no news is available
+- 💥 Graceful error handling and loading states
 
----
+## 📸 Screenshots
+
+> Add actual screenshots here after building the app
+
+| Category List | Article Details | Empty State |
+|---------------|-----------------|-------------|
+| ![Category](screenshots/category.png) | ![Detail](screenshots/detail.png) | ![Empty](screenshots/empty.png) |
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (3.10+ recommended)
+- Dart (Usually bundled with Flutter)
+- Android Studio / Xcode / VSCode for IDE
+- An emulator or physical device
+
+### Setup Instructions
 
 ```bash
-git clone https://github.com/yourusername/flutter-news-detail.git
-cd flutter-news-detail
+# Clone the repo
+git clone https://github.com/your-username/kagi-news-aggregator.git
+cd kagi-news-aggregator
 
-
-## Getting Started
-1. Clone the repository using Git by running the following command in your terminal: git clone https://github.com/nonnyesodo/e-book.git
- 
-2.Navigate to the project directory
-
-3.Get the required dependencies by running the following command:flutter pub get 
-
-4.  Run the app using the following command: flutter run
-
-## Troubleshooting
-
-*   If you encounter any issues while running the app, check the console output for error messages.
-*   Make sure that your emulator or physical device is properly connected and configured.
-*   If you're still facing issues, try cleaning and rebuilding the project using the following commands:
-flutter clean
+# Get dependencies
 flutter pub get
+
+# Run the app
 flutter run
+```
+
+ 
+
+ 
+## 🔍 Technical Highlights
+
+- Uses `http` for network requests
+- JSON decoding from [Kagi API](https://kite.kagi.com/)
+- Custom models for articles and categories
+ 
+- Platform-aware UI design
+- State management via `Bloc`  
+
+ 
+## 📦 Deployment
+
+- Available on TestFlight / Google Play (Add links here if deployed)
+
+## 🧠 Inspiration
+
+- [Apple News](https://apps.apple.com/us/app/apple-news/id1066498020)
+- [1440 Quill](https://apps.apple.com/us/app/1440-quill-daily-newsletter/id1669557131)
+- [Kagi Kite](https://kite.kagi.com/)
+
+ 
+
+## 🧑‍💻 Author  
+ • [GitHub](https://github.com/yourusername)
