@@ -36,7 +36,7 @@ Article Details
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/kagi-news-aggregator.git
+git clone https://github.com/nonnyesodo/News-App.git
 cd kagi-news-aggregator
 
 # Get dependencies
@@ -72,4 +72,4 @@ flutter run
  
 
 ## 🧑‍💻 Author  
- • [GitHub](https://github.com/yourusername)
+ • [GitHub](https://github.com/nonnyesodo)
