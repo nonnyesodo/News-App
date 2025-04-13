@@ -63,7 +63,7 @@ flutter run
  
 ## 📦 Deployment
 
-- Available on TestFlight / Google Play (Add links here if deployed)
+- Available on testApp :https://portal.testapp.io/apps/install/p7KvOl745wMQp
 
 ## 🧠 Inspiration
 
